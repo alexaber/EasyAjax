@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>EasyAjax</title>
+
+		<link rel="stylesheet" href="module_easy-ajax/css/src/dark.css">
+
+		<script src="module_easy-ajax/module.js"></script>
+	</head>
+
+	<body>
+		<h1>Test page</h1>
+
+		<h2>Forms</h2>
+
+		<form class='form'>
+			<input type='hidden' class='id-field' name='id' value='0'>
+
+			<label class='label'>
+				имя
+				<input type='text' name='name' class='text-field' maxlength=60 required placeholder='имя'>
+			</label>
+
+			<label class='label'>
+				фамилия
+				<input type='text' name='lastname' class='text-field' maxlength=60 required placeholder='фамилия'>
+			</label>
+
+			<label class='label'>
+				эл. почта
+				<input type='email' name='email' class='email-field' maxlength=100 required placeholder='эл. почта'>
+			</label>
+
+			<label class='label'>
+				возраст
+				<input type='number' name='age' class='number-field' min=0 max=100 required placeholder='возраст'>
+			</label>
+
+			<input type='submit'>
+		</form>
+
+		<form class='form'>
+			<input type='hidden' class='id-field' name='id' value='1'>
+
+			<label class='label'>
+				ник
+				<input type='text' name='nickname' class='text-field' maxlength=60 required placeholder='ник'>
+			</label>
+
+			<label class='label'>
+				игра
+				<input type='text' name='game' class='text-field' maxlength=100 required placeholder='игра'>
+			</label>
+
+			<label class='label'>
+				описание
+				<input type='text' name='description' class='text-field' maxlength=200 placeholder='описание'>
+			</label>
+
+			<label class='label'>
+				ссылка
+				<input type='url' name='game_link' class='url-field' maxlength=40 required placeholder='ссылка'>
+			</label>
+
+			<input type='submit'>
+		</form>
+
+		<form class='form'>
+			<input type='hidden' class='id-field' name='id' value='2'>
+
+			<label class='label'>
+				имя
+				<input type='text' name='name' class='text-field' maxlength=80 required placeholder='имя'>
+			</label>
+
+			<label class='label'>
+				телефон
+				<input type='tel' name='phone' class='phone-field ' required placeholder='телефон'>
+			</label>
+
+			<label class='label'>
+				сообщение
+				<textarea name='message' class='textarea-field' rows=4 cols=23 required>сообщение</textarea>
+			</label>
+
+			<input type='submit'>
+		</form>
+
+		<h2>Logs</h2>
+
+
+	</body>
+</html>

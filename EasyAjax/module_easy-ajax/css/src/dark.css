@@ -1,0 +1,115 @@
+/* ------------------------------- dark ------------------------------- */
+
+/* -------------------- global -------------------- */
+
+body{
+	padding: 0 20px;
+
+	color: #cccccc;
+	background-color: #272822;
+}
+
+/* -------------------- titles -------------------- */
+
+h1, h2, h3, h4, h5, h6{
+	padding: 5px 0;
+
+	font-family: Comfortaa, cursive;
+}
+h1{
+	border-bottom: 1px solid #cccccc;
+}
+h2{
+	width: 75%;
+
+	border-bottom: 1px dashed #cccccc;
+}
+h3{
+	width: 50%;
+
+	border-bottom: 1px dashed #cccccc;
+}
+
+/* -------------------- form -------------------- */
+
+form{
+	padding: 5px 20px;
+	display: inline-block;
+	font-family: Roboto, Arial, sans-serif;
+}
+textarea,
+input{
+	display: block;
+}
+textarea,
+input[type=text],
+input[type=number],
+input[type=email],
+input[type=url],
+input[type=tel] {
+	padding: 5px;
+	margin: 5px 0;
+
+	font-size: 1em;
+	font-family: Roboto, Arial, sans-serif;
+
+	color: #cccccc;
+	background-color: #272822;
+	border: 1px solid #666666;
+	outline: none;
+}
+textarea:focus,
+input[type=text]:focus,
+input[type=number]:focus,
+input[type=email]:focus,
+input[type=url]:focus,
+input[type=tel]:focus {
+	border: 1px solid #ffFFFF;
+}
+input[type=submit] {
+	margin: 15px 0;
+}
+input[type=submit] {
+	padding: 5px;
+}
+
+/* -------------------- highlight -------------------- */
+
+p{
+	padding: 10px 0;
+
+	font-family: Consolas, monospace;
+	line-height: 24px;
+}
+.debug{
+	color: #aaaaaa;
+}
+.info{
+	color: #cccccc;
+}
+.success{
+	color: #329932;
+}
+.warn{
+	color: #c98236;
+}
+.error{
+	color: #c93836;
+}
+
+/* -------------------- tables -------------------- */
+
+table{
+	margin: auto;
+
+	font-family: Roboto, monospace;
+	font-size: 18px;
+
+	border-collapse: collapse;
+}
+table th,
+table td{
+	padding: 5px 10px;
+
+	border: 1px solid #666666;
+}
